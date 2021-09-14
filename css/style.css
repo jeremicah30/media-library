@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif, helvetica;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    padding-bottom: 10px;
+}
+
+.btn-upload{
+    color: #fff;
+    background-image: linear-gradient( to right, rgb(41, 41, 182), rgb(24, 24, 112));
+
+}
+
+.btn-delete{
+    color: #fff;
+    background-image: linear-gradient( to right, rgb(143, 20, 20), rgb(116, 3, 3));
+}
+
+button:hover{
+    background-image: linear-gradient( to right, rgb(196, 63, 196), rgb(163, 24, 163));
+    outline: none;
+    border: none;
+}
+
+.header, .card-con{
+    border: none;
+    border-bottom: 2px solid rgb(197, 196, 196);
+    padding: 10px;
+}
+
+.card-key{
+    background: rgb(255, 255, 255);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    /* height: 150px;
+    width: 300px;
+    padding: 20px; */
+}
+
+.media-search{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.search-button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.media{
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    height: 50vh;
+}
+
+.card-image{
+    margin-left: 10px;
+    width: 9rem;
+}
